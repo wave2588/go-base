@@ -1,3 +1,3 @@
-module go-base
+module github.com/wave2588/go-base
 
-go 1.16
+go 1.19
