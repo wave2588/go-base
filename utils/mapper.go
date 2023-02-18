@@ -2,6 +2,7 @@ package utils
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	pkgErrors "github.com/pkg/errors"
 	"sync"
