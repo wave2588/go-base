@@ -3,10 +3,9 @@ package utils
 import (
 	"context"
 	"fmt"
+	pkgErrors "github.com/pkg/errors"
 	"sync"
 	"time"
-
-	pkgErrors "github.com/pkg/errors"
 )
 
 type MapperResult struct {
