@@ -16,7 +16,6 @@ func FormatNumber(s string) string {
 
 /**
  * cnNiceNumber 「万亿」单位
- * http://wiki.in.zhihu.com/pages/viewpage.action?pageId=117727660
  * - 小于 1 万：直接展示
  * - 小于 1 亿：单位为「万」
  * - 小于 1 万亿：单位为「亿」
