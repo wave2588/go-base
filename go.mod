@@ -4,7 +4,6 @@ go 1.16
 
 require (
 	github.com/bluele/gcache v0.0.2
-	github.com/daixiang0/gci v0.2.9 // indirect
 	github.com/fatih/structs v1.1.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/pkg/errors v0.9.1
@@ -12,5 +11,4 @@ require (
 	github.com/spf13/cast v1.5.0
 	github.com/vmihailenco/msgpack/v5 v5.4.1
 	golang.org/x/sync v0.1.0
-	mvdan.cc/gofumpt v0.1.0 // indirect
 )

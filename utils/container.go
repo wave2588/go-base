@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-var totalCPU, totalMemory = cgroup.TotalCPU(), cgroup.TotalMemory()
+var totalCPU = cgroup.TotalCPU()
 
 func init() {
 	runtime.GOMAXPROCS(totalCPU)
@@ -13,8 +13,4 @@ func init() {
 
 func TotalCPU() int {
 	return totalCPU
-}
-
-func TotalMemory() int {
-	return totalMemory
 }
