@@ -44,7 +44,7 @@ func BatchGetCache(ctx context.Context, ids []int64) (map[int64]*Account, error)
 		},
 		func(i interface{}) (interface{}, error) {
 			ids := i.([]int64)
-			return d.BatchGetByMySQL(ctx, ids)
+			return BatchGetByMySQL(ctx, ids)
 		}, &resultMap, &ttl)
 	return resultMap, err
 }
