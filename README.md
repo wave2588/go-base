@@ -19,7 +19,7 @@ func init() {
         Host:   "",
 	}
 	masterAddr.User = url.UserPassword("", "password")
-	defaultCachePool, err := redis2.GetPool("dump", masterAddr, nil)
+	defaultCachePool, err := redis2.GetPool("xxx", masterAddr, nil)
 	utils.PanicIf(err)
 
 	// store.NewLocalStore()
